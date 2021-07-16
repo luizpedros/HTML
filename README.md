@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/luizpedros/HTML/main/Formulario/pagina.png" width="440px" height="360px" align='right'/>
+<img src="https://raw.githubusercontent.com/luizpedros/HTML/main/Formulario/pagina.png" width="440px" height="360px"/>
 
 ## Formulário de cadastro DEVs
 
