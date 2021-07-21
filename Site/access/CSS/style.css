@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,300&display=swap");
+
+body {
+  max-width: 100%;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "t t" " i f";
+  margin: none;
+}
+
+#title {
+  font-family: "Poppins", sans-serif;
+  grid-area: t;
+  margin-top: 0;
+}
+
+#title h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  margin: 0;
+  color: #1e90ff;
+}
+
+#title h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36;
+  margin-top: 0;
+  color: #708090;
+}
+
+img {
+  grid-area: i;
+  max-width: 90%;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#formulario {
+  grid-area: f;
+  background-color: #dcdcdc;
+  border-radius: 8px;
+  max-width: 90%;
+  max-height: 80%;
+  padding: 4rem;
+  padding-top: 1rem;
+  margin-top: 30px;
+  margin-bottom: 95px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+#formulario h3 {
+  color: #1e90ff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.box {
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-right: 40px;
+  position: relative;
+  width: 150px;
+  height: 27px;
+}
+
+#acessar {
+  margin-top: 30px;
+  position: relative;
+  width: 8rem;
+  height: 30px;
+  color: #1c1c1c;
+  background-color: #1e90ff;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+#rec {
+  font-size: 10px;
+  position: relative;
+  color: #1c1c1c;
+  margin-bottom: 50px;
+  border: none;
+}
